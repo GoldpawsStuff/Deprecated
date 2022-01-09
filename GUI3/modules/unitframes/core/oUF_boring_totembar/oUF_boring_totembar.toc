@@ -1,0 +1,12 @@
+## Interface: 40000
+## Title: oUF: (boring) TotemBar
+## Version: 1.3
+## Author: tecu
+## Notes: TotemBar element for oUF
+## Dependencies: oUF
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+main.lua

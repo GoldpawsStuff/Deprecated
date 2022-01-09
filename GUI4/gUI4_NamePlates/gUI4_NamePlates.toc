@@ -1,0 +1,17 @@
+﻿## Interface: 70300
+## Name: gUI4_NamePlates
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200NamePlates|r
+## Notes:  Styles and enhances the nameplates
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_NamePlates_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: UnitFrames
+
+embeds.xml
+gUI4_NamePlates.lua
+
+### themes ###
+shared\themes.lua

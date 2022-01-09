@@ -1,0 +1,44 @@
+﻿## Interface: 70300
+## Name: gUI4_ActionBars
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200ActionBars|r
+## Notes: Handles the actionbars
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## OptionalDeps: OmniCC, LibBabble-SubZone-3.0
+## SavedVariables: gUI4_ActionBars_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Action Bars
+
+embeds.xml
+
+gUI4_ActionBars.lua
+
+### shared ###
+shared\themes.lua
+
+### library ###
+libs\LibButtonGUI4-1.0.lua
+
+### templates ###
+templates\scaffold.lua
+templates\buttonbar.lua
+templates\statebar.lua
+templates\extrabutton.lua
+
+### bars ###
+elements\actionbars.lua
+elements\petbar.lua
+elements\stancebar.lua
+elements\extraactionbar.lua
+
+### extra ###
+elements\backdrop.lua
+elements\xpbar.lua
+elements\repbar.lua
+elements\artifactbar.lua
+elements\bagbar.lua
+elements\vehicleexit.lua
+elements\custom.lua
+elements\salvage.lua

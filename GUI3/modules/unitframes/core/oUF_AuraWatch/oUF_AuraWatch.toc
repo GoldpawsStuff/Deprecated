@@ -1,0 +1,13 @@
+## Interface: 30300
+## Title: oUF AuraWatch
+## Author: Astromech
+## Version: 1.3.28-6
+## Notes: Adds aura timers to oUF
+## OptionalDeps: oUF
+## X-oUF: oUF
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+oUF_AuraWatch.lua

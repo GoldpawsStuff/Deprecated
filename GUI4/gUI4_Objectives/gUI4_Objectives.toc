@@ -1,0 +1,33 @@
+﻿## Interface: 70300
+## Name: gUI4_Objectives
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Objectives|r
+## Notes:  Tracks objectives like quests, achievements, battleground score, flag capture status, etc
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## OptionalDeps: gUI4_ActionBars
+## SavedVariables: gUI4_Objectives_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Quests & Leveling
+
+embeds.xml
+gUI4_Objectives.lua
+
+### themes ###
+shared\themes.lua
+
+### templates ###
+templates\scaffold.lua
+templates\bar.lua
+templates\capturebar.lua
+
+### modules ###
+elements\capturebar.lua
+elements\errorframe.lua
+elements\floaters.lua
+elements\raidwarning.lua
+elements\tracker.lua
+elements\worldstate.lua
+elements\zonetext.lua
+elements\orderhall.lua

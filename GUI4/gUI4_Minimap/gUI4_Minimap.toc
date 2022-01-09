@@ -1,0 +1,27 @@
+﻿## Interface: 70300
+## Name: gUI4_Minimap
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Minimap|r
+## Notes:  Styles and enhances the Minimap
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_Minimap_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Interface Enhancements
+
+embeds.xml
+gUI4_Minimap.lua
+
+### themes ###
+shared\themes.lua
+
+### modules ###
+elements\buttonbag.lua
+elements\dungeondifficulty.lua
+elements\mail.lua
+elements\performance.lua
+elements\zonetext.lua
+elements\clicks.lua
+elements\time.lua
+elements\garrison.lua

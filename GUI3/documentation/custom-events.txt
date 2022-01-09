@@ -1,0 +1,56 @@
+gCore-4.0:
+
+	-- fires when an object uses its :SetAttribute(attribute, value) method
+	GCORE_ATTRIBUTE_CHANGED
+		arg1 = <table> addon or module object
+		arg2 = <string> attribute name
+		arg3 = new value
+		arg4 = old value
+
+
+gActionBars-3.0:
+
+	-- fires when gAB:Start() is fired and blizzard bars hidden
+	GAB_LOADED
+
+	-- fires when a bar is shown or hidden
+	GAB_ACTIONBAR_VISIBILITY_UPDATE
+		arg1 = <string> name of the bar (bar retrieved with gAB:GetBarByName(arg1))
+		
+	-- fires when the bar is moved
+	GAB_ACTIONBAR_POSITION_UPDATE
+		arg1 = <string> name of the bar
+	
+	-- fires when button arrangement or bar size changes
+	GAB_ACTIONBAR_LAYOUT_UPDATE
+		arg1 = <string> name of the bar
+		
+	-- fires when buttons assigned to a bar is updated, 
+	-- or when buttons change position within the bar
+	GAB_ACTIONBAR_BUTTON_UPDATE
+		arg1 = <string> name of the bar
+		
+	GAB_ACTIONBAR_POSITION_UPDATE
+		arg1 = <string> name of the bar
+
+
+gActionButtons-3.0
+		
+	-- fires when gABT:Start() is fired and blizzard functions hooked
+	GABT_LOADED
+
+		
+gFrameHandler-2.0
+
+	-- fires when the /glock guide window is shown
+	GFH_GUIDE_WINDOW_SHOWN
+	
+	-- fires when the /glock guide window is hidden
+	GFH_GUIDE_WINDOW_HIDDEN
+	
+
+gUI™ v3.0 Main Addon Object:
+
+	-- fires off when the master layout is changed
+	GUIV3_LAYOUT_CHANGED
+		arg1 = <number> new layout 

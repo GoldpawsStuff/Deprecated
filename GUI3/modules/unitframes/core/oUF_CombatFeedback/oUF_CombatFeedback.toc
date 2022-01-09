@@ -1,0 +1,18 @@
+## Interface: 40000
+## Title: oUF Combat Feedback
+## Notes: Adds combat feedback to oUF.
+## Author: Ammo
+## Version: 1.0
+## X-Category: UnitFrame
+## Dependencies: oUF
+## X-Curse-Packaged-Version: r43-release
+## X-Curse-Project-Name: oUF_CombatFeedback
+## X-Curse-Project-ID: o-uf_combat-feedback
+## X-Curse-Repository-ID: wow/o-uf_combat-feedback/mainline
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+oUF_CombatFeedback.lua
+

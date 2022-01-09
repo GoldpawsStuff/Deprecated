@@ -1,0 +1,17 @@
+## Interface: 40100
+## Title: oUF Smooth Update
+## Notes: Smoothly updates bars
+## Author: Xuerian
+## Version: 1.4
+## X-Category: UnitFrame
+## Dependencies: oUF
+## DefaultState: enabled
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+## X-oUF: oUF
+
+oUF_Smooth.lua
+

@@ -1,0 +1,29 @@
+package-as: gUI4
+enable-nolib-creation: no
+
+move-folders:
+    gUI4/gUI4: gUI4
+    gUI4/gUI4_ActionBars: gUI4_ActionBars
+    gUI4/gUI4_Auras: gUI4_Auras
+    gUI4/gUI4_CastBars: gUI4_CastBars
+    gUI4/gUI4_Chat: gUI4_Chat
+    gUI4/gUI4_DevTools: gUI4_DevTools
+    gUI4/gUI4_FontChanger: gUI4_FontChanger
+    gUI4/gUI4_GroupFrames: gUI4_GroupFrames
+    gUI4/gUI4_Minimap: gUI4_Minimap
+    gUI4/gUI4_NamePlates: gUI4_NamePlates
+    gUI4/gUI4_Objectives: gUI4_Objectives
+    gUI4/gUI4_Tooltip: gUI4_Tooltip
+    gUI4/gUI4_Trade: gUI4_Trade
+    gUI4/gUI4_UnitFrames: gUI4_UnitFrames
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+license-output: LICENSE.txt
+
+ignore:
+    - CHANGELOG.md
+    - README.md
+    - LICENSE.md

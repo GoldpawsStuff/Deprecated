@@ -1,0 +1,14 @@
+﻿## Interface: 70300
+## Name: gUI4_DevTools
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Developer Tools|r
+## Notes:  Various developer tools for gUI4 plugin development
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_DevTools_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Development Tools
+
+embeds.xml
+gUI4_DevTools.lua

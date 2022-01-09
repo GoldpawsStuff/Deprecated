@@ -1,0 +1,79 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	
+	<!-- blizzard elements available at startup -->
+	<Script file="blizzard\autocomplete.lua" />
+	<Script file="blizzard\character.lua" />
+	<Script file="blizzard\dressingroom.lua" />
+	<Script file="blizzard\bgscore.lua" />
+	<Script file="blizzard\colorpicker.lua" />
+	<Script file="blizzard\ghostframe.lua" />
+	<Script file="blizzard\itemtext.lua" />
+	<Script file="blizzard\merchant.lua" />
+	<Script file="blizzard\opacityframe.lua" />
+	<Script file="blizzard\popups.lua" />
+	<Script file="blizzard\readycheck.lua" />
+	<Script file="blizzard\rollpoll.lua" />
+	<Script file="blizzard\stacksplit.lua" />
+	<Script file="blizzard\taxi.lua" />
+
+
+	<Script file="blizzard\alertframes.lua" />
+	<Script file="blizzard\dungeonfinder.lua" />
+	<Script file="blizzard\friends.lua" />
+	<Script file="blizzard\gamemenu.lua" />
+	<Script file="blizzard\gossip.lua" />
+	<Script file="blizzard\greeting.lua" />
+	<Script file="blizzard\guildinvite.lua" />
+	<Script file="blizzard\guildregistrar.lua" />
+	<Script file="blizzard\mail.lua" />
+	<Script file="blizzard\petition.lua" />
+	<Script file="blizzard\pvp.lua" />
+	<Script file="blizzard\questlog.lua" />
+	<Script file="blizzard\tabard.lua" />
+	<Script file="blizzard\ticketstatus.lua" />
+	<Script file="blizzard\trade.lua" />
+	<Script file="blizzard\tutorial.lua" />
+	<Script file="blizzard\watchframe.lua" />
+	<Script file="blizzard\worldstatescore.lua" />
+	<!--
+	-->
+	
+	<!-- blizzard addons -->
+	<Script file="addons\Blizzard_AchievementUI.lua" />
+	<Script file="addons\Blizzard_ArchaeologyUI.lua" />
+	<Script file="addons\Blizzard_AuctionUI.lua" />
+	<Script file="addons\Blizzard_BarbershopUI.lua" />
+	<Script file="addons\Blizzard_BlackMarketUI.lua" />
+	<Script file="addons\Blizzard_Calendar.lua" />
+	<Script file="addons\Blizzard_DebugTools.lua" />
+	<Script file="addons\Blizzard_EncounterJournal.lua" />
+	<Script file="addons\Blizzard_GuildBankUI.lua" />
+	<Script file="addons\Blizzard_GuildControlUI.lua" />
+	<Script file="addons\Blizzard_GuildUI.lua" />
+	<Script file="addons\Blizzard_InspectUI.lua" /> 
+	<Script file="addons\Blizzard_ItemAlterationUI.lua" />
+	<Script file="addons\Blizzard_ItemSocketingUI.lua" />
+	<Script file="addons\Blizzard_ItemUpgradeUI.lua" />
+	<Script file="addons\Blizzard_LookingForGuildUI.lua" />
+	<Script file="addons\Blizzard_MacroUI.lua" />
+	<Script file="addons\Blizzard_MovePad.lua" />
+	<Script file="addons\Blizzard_ReforgingUI.lua" />
+	<Script file="addons\Blizzard_TradeSkillUI.lua" />
+	<Script file="addons\Blizzard_TrainerUI.lua" />
+	<Script file="addons\Blizzard_VoidStorageUI.lua" />
+	<!--
+	-->
+	
+	<!-- 3rd party addons -->
+	<Script file="addons\Omen.lua" />
+	<Script file="addons\Recount.lua" />
+	<Script file="addons\Skada.lua" />
+	<!--
+	<Script file="addons\AuctionLite.lua" />
+	<Script file="addons\DBM-Core.lua" />
+	<Script file="addons\Healium.lua" />
+	<Script file="addons\Postal.lua" />
+	-->
+</Ui>

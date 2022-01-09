@@ -1,0 +1,25 @@
+﻿## Interface: 70300
+## Name: gUI4_Chat
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Chat|r
+## Notes:  Styles and enhances the chat frames and chat bubbles
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_Chat_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Chat & Communication
+
+embeds.xml
+
+gUI4_Chat.lua
+
+### data ###
+shared\emoticons.lua
+
+### modules ###
+elements\windows.lua
+elements\bubbles.lua
+elements\filters.lua
+elements\telltarget.lua
+elements\sounds.lua

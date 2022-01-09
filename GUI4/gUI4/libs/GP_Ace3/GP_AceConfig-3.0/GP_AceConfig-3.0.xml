@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Include file="GP_AceConfigRegistry-3.0\GP_AceConfigRegistry-3.0.xml"/>
+	<Include file="GP_AceConfigCmd-3.0\GP_AceConfigCmd-3.0.xml"/>
+	<Include file="GP_AceConfigDialog-3.0\GP_AceConfigDialog-3.0.xml"/>
+	<!--<Include file="GP_AceConfigDropdown-3.0\GP_AceConfigDropdown-3.0.xml"/>-->
+	<Script file="GP_AceConfig-3.0.lua"/>
+</Ui>

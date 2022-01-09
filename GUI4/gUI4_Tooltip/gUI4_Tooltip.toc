@@ -1,0 +1,18 @@
+﻿## Interface: 70300
+## Name: gUI4_Tooltip
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Tooltip|r
+## Notes:  Improves the game tooltip
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_Tooltip_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Tooltip
+
+embeds.xml
+
+gUI4_Tooltip.lua
+
+### shared ###
+shared\themes.lua

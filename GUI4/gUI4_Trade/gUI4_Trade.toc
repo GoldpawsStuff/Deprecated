@@ -1,0 +1,26 @@
+﻿## Interface: 70300
+## Name: gUI4_Trade
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Trade & Merchant|r
+## Notes:  Automatically sells gray loot and repairs your items.
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_Trade_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Map & Minimap
+
+## data broker library
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+## addon core
+embeds.xml
+gUI4_Trade.lua
+
+### themes ###
+shared\themes.lua
+
+### modules ###
+elements\merchant.lua
+elements\money.lua
+elements\durability.lua

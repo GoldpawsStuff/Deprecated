@@ -1,0 +1,33 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<!-- Ace3 -->
+	<Include file="libs\GP_Ace3\GP_AceAddon-3.0\GP_AceAddon-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceEvent-3.0\GP_AceEvent-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceTimer-3.0\GP_AceTimer-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceBucket-3.0\GP_AceBucket-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceHook-3.0\GP_AceHook-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceDB-3.0\GP_AceDB-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceDBOptions-3.0\GP_AceDBOptions-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceLocale-3.0\GP_AceLocale-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceConsole-3.0\GP_AceConsole-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceGUI-3.0\GP_AceGUI-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceConfig-3.0\GP_AceConfig-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceComm-3.0\GP_AceComm-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceTab-3.0\GP_AceTab-3.0.xml"/>
+	<Include file="libs\GP_Ace3\GP_AceSerializer-3.0\GP_AceSerializer-3.0.xml"/>
+
+	<!-- Library used to load/save custom frame positions. -->
+	<Script file="libs\GP_LibWindow-1.1\GP_LibWindow-1.1.lua"/>
+
+	<!-- Our own custom libs needed for nearly all of the modules. -->
+	<Script file="libs\GP_LibMediaPlus-1.0\GP_LibMediaPlus-1.0.lua"/>
+	<Script file="libs\GP_LibFlash-1.0\GP_LibFlash-1.0.lua"/>
+	<Script file="libs\GP_LibSecureWrapper-1.0\GP_LibSecureWrapper-1.0.lua"/>
+
+	<!-- An older modified version of oUF. We keep it updated.  -->
+	<Include file="libs\GP_oUF\oUF.xml"/>
+
+	<!-- All our own custom oUF elements and tags. -->
+	<Include file="libs\GP_oUF-Elements\elements.xml"/>
+	
+</Ui>

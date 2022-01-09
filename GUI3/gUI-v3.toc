@@ -1,0 +1,15 @@
+﻿## Interface: 50400
+## Name: gUI-v3
+## Title: |cFFFF7D0Ag|r|cFFFFBB00UI|r|cFFFFFFFF3|r |cFF00FF96MoP|r
+## Notes: |cFFFFFFFFMinimalistic UI replacement.|r|n|cFFFFFFFFSpecial credits to:|r|n|cFF4488FFBanz Lin and various others(zhCN, zhTW), UnoPrata(ptBR, ptPT), Wauk(frFR), Zork (for amazing tutorials and forum posts @ WoWInterface) and Kkthnxbye(compability and testing)|r
+## Author: Lars Norberg
+## Version: 1.0.Release-r174
+## DefaultState: Enabled
+## SavedVariables: gUI3_DB
+## OptionalDeps: SharedMedia, LibSharedMedia-3.0, Bartender4, Dominos, RazerAnansi, RazerNaga, ElkBuffBars, SatrinaBuffFrame, AdiBags, ArkInventory, Bagnon, Baggins, BaudBag, cargBags_Nivaya, cargBags_Simplicity, Combuctor, famBags, OneBag3, OneBank3, TBag, Quartz, Chatter, Prat-3.0, ag_UnitFrames, PitBull4, ShadowedUnitFrames, XPerl, Aloft, DocsUI_Nameplates, Healium, Healers-Have-To-Die, Headline, knameplates, Kui_Nameplates, mNameplates, StarTip, TidyPlates, TinyTip, TipTac, AuctionLite, Auc-Advanced, Recount, Postal, DBM-Core, Omen, Skada, MikScrollingBattleText, Carbonite
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+gUI-v3.xml

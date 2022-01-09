@@ -1,0 +1,14 @@
+﻿## Interface: 70300
+## Name: gUI4_FontChanger
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200FontChanger|r
+## Notes:  Replaces core game fonts
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_FontChanger_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Bags & Inventory
+
+embeds.xml
+gUI4_FontChanger.lua

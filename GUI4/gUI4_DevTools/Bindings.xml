@@ -1,0 +1,18 @@
+﻿<Bindings>
+	<Binding name="GUI4_DEVTOOLS_RELOADUI" runOnUp="true" header="GUI4_DEVTOOLS" category="ADDONS">
+		if (keystate == "up") then
+			ReloadUI()
+		end
+	</Binding>
+	<Binding name="GUI4_DEVTOOLS_FULLSCREEN" runOnUp="true" category="ADDONS">
+		if (keystate == "up") then
+			gUI4_DevTools:Fullscreen()
+		end
+	</Binding>
+	<Binding name="GUI4_DEVTOOLS_WINDOWED" runOnUp="true" category="ADDONS">
+		if (keystate == "up") then
+			gUI4_DevTools:Windowed()
+		end
+	</Binding>
+</Bindings>
+

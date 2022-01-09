@@ -1,0 +1,15 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	
+	<Script file="chat.lua" />
+
+	<Script file="elements\abbreviations.lua" />
+	<Script file="elements\bnetlinks.lua" />
+	<Script file="elements\bubbles.lua" />
+	<Script file="elements\easychat.lua" />
+	<Script file="elements\emoticons.lua" />
+	<Script file="elements\filters.lua" />
+	<Script file="elements\telltarget.lua" />
+	<Script file="elements\urlcopy.lua" />
+</Ui>

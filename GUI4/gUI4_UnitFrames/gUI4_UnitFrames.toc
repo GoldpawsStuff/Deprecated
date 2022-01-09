@@ -1,0 +1,33 @@
+## Interface: 70300
+## Name: gUI4_UnitFrames
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200UnitFrames|r
+## Notes:  |cFFFFBB00Units included:|r|nPlayer|nPlayer's Pet|nPlayer's Pet's Target|nTarget|nTarget's Target|nTarget's Target's Target|nFocus Target|nFocus Target's Target|nBoss
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## OptionalDeps: gUI4_ActionBars
+## SavedVariables: gUI4_UnitFrames_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: UnitFrames
+
+gUI4_UnitFrames.lua
+
+### shared ###
+shared\auras.lua
+shared\themes.lua
+
+### units ###
+units\player.lua
+units\target.lua
+units\tot.lua
+units\tottarget.lua
+units\pet.lua
+units\pettarget.lua
+units\focus.lua
+units\focustarget.lua
+units\boss.lua
+
+### special elements ###
+units\altpowerbar.lua
+units\classbar.lua

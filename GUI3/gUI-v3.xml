@@ -1,0 +1,62 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+ 
+	<Script file="libs\LibStub\LibStub.lua"/>
+	<Include file="libs\CallbackHandler-1.0\CallbackHandler-1.0.xml" />
+	<Include file="libs\LibSharedMedia-3.0\lib.xml"/>
+
+	<!-- custom libraries, AKA the GUIS environment -->
+	<Include file="libs\gCore-4.0\gCore-4.0.xml"/>
+	<Include file="libs\gDB-2.0\gDB-2.0.xml"/>
+	<Include file="libs\gLocale-2.0\gLocale-2.0.xml"/>
+	<Include file="libs\gMedia-4.0\gMedia-4.0.xml"/>
+	<Include file="libs\gDropDown-1.0\gDropDown-1.0.xml"/>
+	<Include file="libs\gPopUp-1.0\gPopUp-1.0.xml"/>
+	
+	<!-- custom libraries that are dependant on gCore-4.0 -->
+	<Include file="libs\gFrameHandler-2.0\gFrameHandler-2.0.xml"/> 
+	<Include file="libs\gPanel-3.0\gPanel-3.0.xml"/> 
+	<Include file="libs\gOptionsMenu-1.0\gOptionsMenu-1.0.xml"/> 
+	<Include file="libs\gActionBars-3.0\gActionBars-3.0.xml"/> 
+	<Include file="libs\gActionButtons-3.0\gActionButtons-3.0.xml"/> 
+	<!-- <Include file="libs\gBag-1.0\gBag-1.0.xml"/> --> 
+
+	<!-- oUF -->
+	<Include file="modules\unitframes\core\oUF\oUF.xml" />
+
+	<!-- stuff still needed for actionbars/keybinds and bags -->
+	<Include file="libs\LibKeyBound-1.0\LibKeyBound-1.0\lib.xml" />
+	<Include file="libs\cargBags\embed.xml" />
+
+	<!-- our fonts -->
+	<Include file="media\fonts.xml"/>
+
+	<!-- localization -->
+	<Include file="locales\locales.xml"/>
+
+	<!-- load the main addon object -->
+	<Include file="modules\core\core.xml"/>
+
+	<!-- load addon modules -->
+	<Include file="modules\actionbars\actionbars.xml"/>
+	<Include file="modules\auras\auras.xml"/>
+	<Include file="modules\bags\bags.xml"/>
+	<Include file="modules\castbars\castbars.xml"/>
+	<Include file="modules\chat\chat.xml"/>
+	<Include file="modules\combat\combat.xml"/>
+	<Include file="modules\combatlogs\combatlogs.xml"/>
+	<Include file="modules\devtools\devtools.xml"/>
+	<Include file="modules\font\font.xml"/>
+	<Include file="modules\loot\loot.xml"/>
+	<Include file="modules\map\map.xml"/>
+	<Include file="modules\merchant\merchant.xml"/>
+	<Include file="modules\minimap\minimap.xml"/>
+	<Include file="modules\nameplates\nameplates.xml"/>
+	<Include file="modules\panels\panels.xml"/>
+	<Include file="modules\tooltip\tooltip.xml"/>
+	<Include file="modules\unitframes\unitframes.xml"/>
+	
+	<!-- key bindings -->
+	<Include file="Bindings.xml" />
+</Ui>

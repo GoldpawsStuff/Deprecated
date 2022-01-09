@@ -1,0 +1,12 @@
+## Interface: 50001
+## Title: oUF RaidDebuffs
+## Notes: Raid debuff mod for oUF
+## Version: 5.0.1
+## Dependencies: oUF
+## X-Curse-Packaged-Version: Release-r174
+## X-Curse-Project-Name: Goldpaw's gUI3 (MoP)
+## X-Curse-Project-ID: gui-v3
+## X-Curse-Repository-ID: wow/gui-v3/mainline
+
+oUF_RaidDebuffs.lua
+

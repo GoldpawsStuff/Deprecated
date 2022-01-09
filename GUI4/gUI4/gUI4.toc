@@ -1,0 +1,51 @@
+﻿## Interface: 70300
+## Name: gUI4
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFEB200UI|r |cffffffffCore|r |cFF888888(WoW 7.1.5 - 7.3.5)|r
+## Notes: Core framework for the |cFFFF7D0AGoldpaw's|r |cFFFFB200UI|r (previously gUI4) addon suite. Provides a framework for other Goldpaw's UI modules.
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## SavedVariables: gUI4_DB
+## OptionalDeps: Clique, LibKeyBound-1.0, LibDualSpec-1.0, Masque, MinimapButtonFrame, MBB, MyRolePlay, totalRP2, TradeSkillMaster
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Interface Enhancements
+
+### Compatibility ###
+compatibility\old-api.lua
+
+libs\GP_LibStub\GP_LibStub.lua
+libs\GP_CallbackHandler-1.0\GP_CallbackHandler-1.0.lua
+
+### libraries ###
+embeds.xml
+
+### locales ###
+locale.xml
+
+### core ###
+main.lua
+media.lua
+setup.lua
+
+### shared ###
+shared\auras.lua
+shared\colors.lua
+shared\media.lua
+shared\functions.lua
+shared\tags.lua
+
+### stuff ###
+elements\fademanager.lua
+elements\smoothing.lua
+elements\offsets.lua
+elements\themes.lua
+elements\glock.lua
+
+elements\staticpopups.lua
+elements\fullscreenfade.lua
+elements\uiscale.lua
+elements\blizzard.lua
+elements\frames.lua
+elements\specs.lua
+elements\wod.lua
+elements\controlpanel.lua

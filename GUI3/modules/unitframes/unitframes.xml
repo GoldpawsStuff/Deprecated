@@ -1,0 +1,43 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<!--<Include file="modules\unitframes\core\oUF\oUF.xml" />-->
+
+	<Script file="unitframes.lua" />
+	
+	<Script file="shared\tags.lua" />
+	<Script file="shared\auras.lua" />
+	<Script file="shared\functions.lua" />
+	<Script file="shared\raidtools.lua" />
+
+	<Script file="core\oUF_AuraWatch\oUF_AuraWatch.lua" />
+	<Script file="core\oUF_CombatFeedback\oUF_CombatFeedback.lua" />
+	<Script file="core\oUF_RaidDebuffs\oUF_RaidDebuffs.lua" />
+	<Script file="core\oUF_Smooth\oUF_Smooth.lua" />
+	<Script file="core\oUF_SpellRange\oUF_SpellRange.lua" />
+	<Script file="core\oUF_boring_totembar\main.lua" />
+
+	<Script file="elements\arcanecharges.lua" />
+	<Script file="elements\burningembers.lua" />
+	<Script file="elements\chi.lua" />
+	<Script file="elements\demonicfury.lua" />
+	<Script file="elements\friendship.lua" />
+	<Script file="elements\holypower.lua" />
+	<Script file="elements\indicators.lua" />
+	<Script file="elements\runes.lua" />
+	<Script file="elements\shadoworbs.lua" />
+	<Script file="elements\soulshards.lua" />
+	<Script file="elements\trinkets.lua" />
+
+	<Script file="units\player.lua" />
+	<Script file="units\target.lua" />
+	<Script file="units\tot.lua" />
+	<Script file="units\pet.lua" />
+	<Script file="units\focus.lua" />
+	<Script file="units\party.lua" />
+	<Script file="units\raid.lua" />
+	<Script file="units\arena.lua" />
+	<Script file="units\boss.lua" />
+	<Script file="units\class.lua" />
+</Ui>

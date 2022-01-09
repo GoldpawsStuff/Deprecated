@@ -1,0 +1,25 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<Script file="altpower.lua"/>
+	<Script file="arcanecharges.lua"/>
+	<Script file="burningembers.lua"/>
+	<Script file="chi.lua"/>
+	<Script file="classifications.lua"/>
+	<Script file="combatfeedback.lua"/>
+	<Script file="combopoints.lua"/>
+	<Script file="demonicfury.lua"/>
+	<Script file="eclipse.lua"/>
+	<Script file="groupauras.lua"/>
+	<Script file="grouprole.lua"/>
+	<Script file="iconstack.lua"/>
+	<Script file="holypower.lua"/>
+	<Script file="indicators.lua"/>
+	<Script file="pvptimer.lua"/>
+	<Script file="range.lua"/>
+	<Script file="runes.lua"/>
+	<Script file="shadoworbs.lua"/>
+	<Script file="smoothing.lua"/>
+	<Script file="soulshards.lua"/>
+	<Script file="totems.lua"/>
+	
+</Ui>

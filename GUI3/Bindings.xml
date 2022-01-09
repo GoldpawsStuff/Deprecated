@@ -1,0 +1,79 @@
+﻿<Bindings>
+
+	<!-- /rl -->
+	<Binding name="GUISRELOADUI" runOnUp="true" header="GUISKEYBINDSMAIN">
+		if (keystate == "up") then
+			ReloadUI()
+		end
+	</Binding>
+	<!-- /glock -->
+	<Binding name="GUISTOGGLEMOVABLEFRAMES" runOnUp="true">
+		if (keystate == "up") then
+			if (GUIS_ToggleMovableFrames) then
+				GUIS_ToggleMovableFrames()
+			end
+		end
+	</Binding>
+	<!-- /bind -->
+	<Binding name="GUISTOGGLEKEYBINDMODE" runOnUp="true">
+		if (keystate == "up") then
+			if not(InCombatLockdown()) and (GUIS_ToggleKeybindMode) then
+				GUIS_ToggleKeybindMode()
+			end
+		end
+	</Binding>
+	<!-- TellTarget -->
+	<Binding name="GUISTELLTARGET" runOnUp="true">
+		if (keystate == "up") then
+			if not(UnitExists("target")) then return end
+
+			local unitname, realm = UnitName("target")
+			if (unitname) then 
+				unitname = gsub(unitname, " ", "") 
+			end
+			
+			if (unitname) and not(UnitIsSameServer("player", "target")) then
+				unitname = unitname .. "-" .. gsub(realm, " ", "")
+			end
+	
+			ChatFrame_SendTell((unitname or ""), SELECTED_CHAT_FRAME)
+		end
+	</Binding>
+	<Binding name="GUISTELLFOCUS" runOnUp="true">
+		if (keystate == "up") then
+			if not(UnitExists("focus")) then return end
+
+			local unitname, realm = UnitName("focus")
+			if (unitname) then 
+				unitname = gsub(unitname, " ", "") 
+			end
+			
+			if (unitname) and not(UnitIsSameServer("player", "focus")) then
+				unitname = unitname .. "-" .. gsub(realm, " ", "")
+			end
+	
+			ChatFrame_SendTell((unitname or ""), SELECTED_CHAT_FRAME)
+		end
+	</Binding>
+	<Binding name="GUISTOGGLECALENDAR" runOnUp="true">
+		if (keystate == "up") then
+			if not(CalendarFrame) then 
+				LoadAddOn("Blizzard_Calendar")
+			end
+			ToggleCalendar()
+		end
+	</Binding>
+	<Binding name="GUISTOGGLECUSTOMERSUPPORT" runOnUp="true">
+		if (keystate == "up") then
+			ToggleHelpFrame()
+		end
+	</Binding>
+	<!-- Binds for other addons -->
+	<Binding name="GUISTSMFIX505" runOnUp="true" header="GUIS3RDPARTYBINDS">
+		if (TSMAuctioningCancelButton) and (TSMAuctioningPostButton) then
+			TSMAuctioningCancelButton:Click()
+			TSMAuctioningPostButton:Click()
+		end
+	</Binding>
+</Bindings>
+

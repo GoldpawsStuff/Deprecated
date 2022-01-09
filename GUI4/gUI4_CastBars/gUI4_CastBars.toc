@@ -1,0 +1,29 @@
+﻿## Interface: 70300
+## Name: gUI4_CastBars
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200CastBars|r
+## Notes:  Provides castbars and countdown timers
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_CastBars_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Combat
+
+embeds.xml
+locale.xml
+gUI4_CastBars.lua
+
+### themes ###
+shared\themes.lua
+
+### templates ###
+templates\scaffold.lua
+templates\bar.lua
+templates\statusbar.lua
+templates\castbar.lua
+templates\timerbar.lua
+
+### modules ###
+elements\castbars.lua
+elements\timers.lua

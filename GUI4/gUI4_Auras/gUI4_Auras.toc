@@ -1,0 +1,25 @@
+﻿## Interface: 70300
+## Name: gUI4_Auras
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200Auras|r
+## Notes:  Shows the player's buffs and debuffs
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_Auras_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: Buffs & Debuffs
+
+embeds.xml
+
+gUI4_Auras.lua
+
+### shared ###
+shared\themes.lua
+
+### templates ###
+templates\templates.xml
+
+### elements ###
+elements\buffs.lua
+elements\debuffs.lua

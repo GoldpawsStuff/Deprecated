@@ -1,0 +1,31 @@
+﻿<Bindings>
+	<Binding name="GUI4_CHAT_TELLTARGET" runOnUp="true" header="GUI4_CHAT" category="ADDONS">
+		if (keystate == "up") then
+			if UnitExists("target") then 
+				local unitname, realm = UnitName("target")
+				if (unitname) then 
+					unitname = unitname:gsub(" ", "") 
+					if not(UnitIsSameServer("player", "target")) then
+						unitname = unitname .. "-" .. realm:gsub(" ", "")
+					end
+					ChatFrame_SendTell(unitname, SELECTED_CHAT_FRAME)
+				end
+			end
+		end
+	</Binding>
+	<Binding name="GUI4_CHAT_TELLFOCUS" runOnUp="true" category="ADDONS">
+		if (keystate == "up") then
+			if UnitExists("focus") then 
+				local unitname, realm = UnitName("focus")
+				if (unitname) then 
+					unitname = unitname:gsub(" ", "") 
+					if not(UnitIsSameServer("player", "focus")) then
+						unitname = unitname .. "-" .. realm:gsub(" ", "")
+					end
+					ChatFrame_SendTell(unitname, SELECTED_CHAT_FRAME)
+				end
+			end
+		end
+	</Binding>
+</Bindings>
+

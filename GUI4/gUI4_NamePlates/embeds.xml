@@ -1,0 +1,10 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlGUIS:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<!--@no-lib-strip@-->
+	<Include file="libs\LibNameplate-1.0\LibNameplate-1.0\lib.xml"/>
+	<Include file="libs\LibNameplateRegistry-1.0\LibNameplateRegistry-1.0\LibNameplateRegistry-1.0.xml"/>
+	<!--@end-no-lib-strip@-->
+	
+</Ui>

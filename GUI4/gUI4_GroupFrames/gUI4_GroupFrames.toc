@@ -1,0 +1,26 @@
+﻿## Interface: 70300
+## Name: gUI4_GroupFrames
+## Title: |cFFFF7D0AGoldpaw's|r |cFFFFB200GroupFrames|r
+## Notes:  |cFFFFBB00Units included:|r|nParty5|nRaid15|nRaid25|nRaid40
+## Author: Lars "Goldpaw" Norberg
+## Version: 1.1
+## DefaultState: Enabled
+## Dependencies: gUI4
+## SavedVariables: gUI4_GroupFrames_DB
+## X-Donate: PayPal:paypal@cogwerkz.org
+## X-Category: UnitFrames
+
+gUI4_GroupFrames.lua
+
+### shared ###
+shared\auras.lua
+shared\themes.lua
+
+### units ###
+units\group5.lua
+units\raid15.lua
+units\raid25.lua
+units\raid40.lua
+
+### tools ###
+tools\leadertools.lua
