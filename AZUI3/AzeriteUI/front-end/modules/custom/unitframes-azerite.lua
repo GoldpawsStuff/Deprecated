@@ -2283,7 +2283,7 @@ end
 -- Grouped Unit Styling
 -----------------------------------------------------------
 -- Dummy counters for testing purposes only
-local fakeBossId, fakePartyId, fakeRaidId = 0, 0, 0, 0
+local fakeBossId, fakePartyId, fakeRaidId = 0, 0, 0
 
 UnitStyles.StyleBossFrames = function(self, unit, id, layout, ...)
 	if (not id) then

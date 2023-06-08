@@ -1,6 +1,6 @@
 --[[--
 
-The purpose of this tool is to supply 
+The purpose of this tool is to supply
 basic filters for chat output.
 
 --]]--
@@ -110,7 +110,7 @@ end
 
 -- Search Pattern Cache.
 -- This will generate the pattern on the first lookup.
-local P = setmetatable({}, { __index = function(t,k) 
+local P = setmetatable({}, { __index = function(t,k)
 	rawset(t,k,makePattern(k))
 	return rawget(t,k)
 end })
@@ -126,7 +126,7 @@ for i,global in ipairs({
 	"COMBATLOG_HONORAWARD", -- "You have been awarded %d honor points."
 	"COMBATLOG_HONORGAIN", -- "%s dies, honorable kill Rank: %s (Estimated Honor Points: %d)"
 
-	-- CHAT_MSG_LOOT -- these are by other players, add to loot filter! 
+	-- CHAT_MSG_LOOT -- these are by other players, add to loot filter!
 	"CREATED_ITEM", -- "%s creates: %s."
 	"CREATED_ITEM_MULTIPLE", -- "%s creates: %sx%d."
 	"LOOT_ITEM", -- "%s receives loot: %s."
@@ -178,10 +178,10 @@ end
 -- The order here matters.
 -- Also note that any chat filters are applied before this,
 -- anything going through this method is at the very end of the chain.
--- Not counting other addons that also replace this method. 
+-- Not counting other addons that also replace this method.
 local Replacements = {}
 -- uncomment to break the chat
--- for development purposes only. weird stuff happens when used. 
+-- for development purposes only. weird stuff happens when used.
 --table_insert(Replacements, { "|", "||" })
 
 table_insert(Replacements, { "^To (.-|h)", "|cffad2424@|r%1" })
@@ -197,49 +197,49 @@ table_insert(Replacements, { "<"..DND..">", "|cffE7E716<"..DND..">|r " })
 local OnChatMessage = function(frame, event, message, author, ...)
 
 
-		-- TODO:
-		-- Make a system that pairs patterns with solutions,
-		-- describing if it allows multiple, should block, replace, etc.
+	-- TODO:
+	-- Make a system that pairs patterns with solutions,
+	-- describing if it allows multiple, should block, replace, etc.
 
-		if (FilterStatus.Styling) then
+	if (FilterStatus.Styling) then
 
 
 
-			-- Artifact Power?
-			if (IsRetail) then
-				local artifact_pattern = P[ARTIFACT_XP_GAIN] -- "%s gains %s Artifact Power."
-				local artifact, artifactPower = string_match(message, artifact_pattern)
-				if (artifact) then
-					local first, last = string_find(message, "|c(.+)|r")
-					if (first and last) then
-						local artifact = string_sub(message, first, last)
-						artifact = string_gsub(artifact, "[%[/%]]", "") -- kill brackets
-						local countString = string_sub(message, last + 1)
-						local artifactPower = tonumber(string_match(countString, "(%d+)"))
-						if (artifactPower) and (artifactPower > 1) then
-							return false, string_format(T.REP_MULTIPLE, artifactPower, ARTIFACT_POWER, artifact), author, ...
-						end
+		-- Artifact Power?
+		if (IsRetail) then
+			local artifact_pattern = P[ARTIFACT_XP_GAIN] -- "%s gains %s Artifact Power."
+			local artifact, artifactPower = string_match(message, artifact_pattern)
+			if (artifact) then
+				local first, last = string_find(message, "|c(.+)|r")
+				if (first and last) then
+					local artifact = string_sub(message, first, last)
+					artifact = string_gsub(artifact, "[%[/%]]", "") -- kill brackets
+					local countString = string_sub(message, last + 1)
+					local artifactPower = tonumber(string_match(countString, "(%d+)"))
+					if (artifactPower) and (artifactPower > 1) then
+						return false, string_format(T.REP_MULTIPLE, artifactPower, ARTIFACT_POWER, artifact), author, ...
 					end
 				end
 			end
 		end
+	end
 
-		-- Hide selected stuff from various other events
-		if (FilterStatus.Spam) then
-			for i,pattern in ipairs(FilteredGlobals) do
-				if (string_match(message,pattern)) then
-					return true
-				end
+	-- Hide selected stuff from various other events
+	if (FilterStatus.Spam) then
+		for i,pattern in ipairs(FilteredGlobals) do
+			if (string_match(message,pattern)) then
+				return true
 			end
 		end
 	end
+
 
 	-- Pass everything else through
 	return false, message, author, ...
 end
 
 local OnOpenTemporaryWindow = function(...)
-	CacheMessageMethod((FCF_GetCurrentChatFrame())) 
+	CacheMessageMethod((FCF_GetCurrentChatFrame()))
 end
 
 Filters.Styling = {
@@ -248,7 +248,7 @@ Filters.Styling = {
 		ChatFrame_AddMessageEventFilter("CHAT_MSG_SYSTEM", OnChatMessage)
 	end,
 	Disable = function(module)
-		
+
 		-- Used by both styling and spam filters.
 		ChatFrame_RemoveMessageEventFilter("CHAT_MSG_SYSTEM", OnChatMessage)
 	end
